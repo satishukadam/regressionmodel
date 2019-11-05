@@ -1,11 +1,9 @@
 import pandas as pd
 from configs import config
 
-input_file = config.DATA_FILE
-
 
 # Function to load dataset csv
-def load_dataset(input_file) -> pd.DataFrame:
+def load_dataset(input_file=config.DATA_FILE) -> pd.DataFrame:
     """This function loads the input CSV file into a pandas dataframe"""
     _data = pd.read_csv(input_file)
     return _data

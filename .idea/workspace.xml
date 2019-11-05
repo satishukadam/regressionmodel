@@ -3,8 +3,10 @@
   <component name="ChangeListManager">
     <list default="true" id="8b14c628-e83d-4253-b7f5-45c9cb619baf" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/models/model1.pkl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/configs/config.py" beforeDir="false" afterPath="$PROJECT_DIR$/configs/config.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/regression/preparation.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/regression/preparation.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/regression/train_model.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/regression/train_model.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/test_preparation.py" beforeDir="false" afterPath="$PROJECT_DIR$/tests/test_preparation.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -17,8 +19,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/configs/config.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="187">
-              <caret line="18" column="20" selection-start-line="18" selection-start-column="20" selection-end-line="18" selection-end-column="20" />
+            <state relative-caret-position="360">
+              <caret line="20" lean-forward="true" selection-start-line="20" selection-end-line="20" />
             </state>
           </provider>
         </entry>
@@ -26,8 +28,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/regression/preparation.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="162">
-              <caret line="9" column="35" selection-start-line="9" selection-start-column="35" selection-end-line="9" selection-end-column="35" />
+            <state relative-caret-position="108">
+              <caret line="6" column="31" selection-start-line="6" selection-start-column="31" selection-end-line="6" selection-end-column="31" />
               <folding>
                 <element signature="e#0#19#0" expanded="true" />
               </folding>
@@ -38,11 +40,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/regression/processing.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="378">
-              <caret line="30" selection-start-line="30" selection-end-line="30" />
-              <folding>
-                <element signature="e#0#61#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="90">
+              <caret line="5" column="33" lean-forward="true" selection-start-line="5" selection-start-column="33" selection-end-line="5" selection-end-column="33" />
             </state>
           </provider>
         </entry>
@@ -50,8 +49,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/regression/train_model.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="234">
-              <caret line="19" lean-forward="true" selection-start-line="19" selection-end-line="19" />
+            <state relative-caret-position="-198">
+              <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
               <folding>
                 <element signature="e#0#37#0" expanded="true" />
               </folding>
@@ -78,12 +77,12 @@
         <option value="$PROJECT_DIR$/regression/__init__.py" />
         <option value="$PROJECT_DIR$/regression/src/models.py" />
         <option value="$PROJECT_DIR$/regression/src/preparation.py" />
-        <option value="$PROJECT_DIR$/tests/test_preparation.py" />
         <option value="$PROJECT_DIR$/regression/src/processing.py" />
-        <option value="$PROJECT_DIR$/configs/config.py" />
         <option value="$PROJECT_DIR$/src/regression/test.py" />
-        <option value="$PROJECT_DIR$/src/regression/preparation.py" />
         <option value="$PROJECT_DIR$/src/regression/processing.py" />
+        <option value="$PROJECT_DIR$/src/regression/preparation.py" />
+        <option value="$PROJECT_DIR$/tests/test_preparation.py" />
+        <option value="$PROJECT_DIR$/configs/config.py" />
         <option value="$PROJECT_DIR$/src/regression/train_model.py" />
       </list>
     </option>
@@ -184,7 +183,6 @@
       <option name="PARENT_ENVS" value="true" />
       <envs>
         <env name="PYTHONUNBUFFERED" value="1" />
-        <env name="PATH" value="PYTHONUNBUFFERED=1;PATH=C:\ProgramData\Anaconda3\envs\mlenv\python.exe;C:\ProgramData\Anaconda3\envs\mlenv\Scripts;C:\ProgramData\Anaconda3\envs\mlenv\Library\bin;C:\ProgramData\Anaconda3\envs\mlenv\Lib\site-packages" />
       </envs>
       <option name="SDK_HOME" value="" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/configs" />
@@ -244,28 +242,6 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="test" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="regression" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-        <env name="PATH" value="C:\ProgramData\Anaconda3\envs\mlenv\python.exe;C:\ProgramData\Anaconda3\envs\mlenv\Scripts;C:\ProgramData\Anaconda3\envs\mlenv\Library\bin;C:\ProgramData\Anaconda3\envs\mlenv\Lib\site-packages" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/src/regression" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/src/regression/test.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
     <configuration name="train_model" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="regression" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -308,18 +284,16 @@
     </configuration>
     <list>
       <item itemvalue="Python.preparation" />
-      <item itemvalue="Python.config" />
       <item itemvalue="Python.processing" />
       <item itemvalue="Python.train_model" />
-      <item itemvalue="Python.test" />
       <item itemvalue="Python tests.pytest" />
+      <item itemvalue="Python.config" />
     </list>
     <recent_temporary>
       <list>
         <item itemvalue="Python.train_model" />
-        <item itemvalue="Python.preparation" />
-        <item itemvalue="Python.test" />
         <item itemvalue="Python.processing" />
+        <item itemvalue="Python.preparation" />
         <item itemvalue="Python.config" />
       </list>
     </recent_temporary>
@@ -338,24 +312,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="pytest - 2019.11.05 at 17h 11m 25s.xml">
-      <configuration name="pytest" configurationId="tests" />
-    </history-entry>
-    <history-entry file="pytest - 2019.11.05 at 17h 12m 54s.xml">
-      <configuration name="pytest" configurationId="tests" />
-    </history-entry>
-    <history-entry file="pytest - 2019.11.05 at 17h 13m 12s.xml">
-      <configuration name="pytest" configurationId="tests" />
-    </history-entry>
-    <history-entry file="pytest - 2019.11.05 at 17h 21m 35s.xml">
-      <configuration name="pytest" configurationId="tests" />
-    </history-entry>
-    <history-entry file="pytest - 2019.11.05 at 17h 28m 23s.xml">
-      <configuration name="pytest" configurationId="tests" />
-    </history-entry>
-    <history-entry file="pytest - 2019.11.05 at 17h 34m 21s.xml">
-      <configuration name="pytest" configurationId="tests" />
-    </history-entry>
     <history-entry file="pytest - 2019.11.05 at 17h 35m 19s.xml">
       <configuration name="pytest" configurationId="tests" />
     </history-entry>
@@ -368,6 +324,24 @@
     <history-entry file="pytest - 2019.11.05 at 17h 36m 00s.xml">
       <configuration name="pytest" configurationId="tests" />
     </history-entry>
+    <history-entry file="pytest_in_test_preparation_py - 2019.11.05 at 22h 54m 00s.xml">
+      <configuration name="pytest in test_preparation.py" configurationId="tests" />
+    </history-entry>
+    <history-entry file="pytest - 2019.11.05 at 22h 54m 11s.xml">
+      <configuration name="pytest" configurationId="tests" />
+    </history-entry>
+    <history-entry file="pytest - 2019.11.05 at 22h 55m 15s.xml">
+      <configuration name="pytest" configurationId="tests" />
+    </history-entry>
+    <history-entry file="pytest - 2019.11.05 at 22h 57m 01s.xml">
+      <configuration name="pytest" configurationId="tests" />
+    </history-entry>
+    <history-entry file="pytest - 2019.11.05 at 22h 57m 46s.xml">
+      <configuration name="pytest" configurationId="tests" />
+    </history-entry>
+    <history-entry file="pytest - 2019.11.05 at 22h 59m 11s.xml">
+      <configuration name="pytest" configurationId="tests" />
+    </history-entry>
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
@@ -378,7 +352,7 @@
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.3286119" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.28470254" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.3711048" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39943343" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -394,16 +368,6 @@
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/regression/__init__.py" />
-    <entry file="file://$PROJECT_DIR$/tests/test_preparation.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="144">
-          <caret line="8" selection-start-line="8" selection-end-line="8" />
-          <folding>
-            <element signature="e#0#4#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/regression/test.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="331">
@@ -414,40 +378,47 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/configs/config.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="18" column="20" selection-start-line="18" selection-start-column="20" selection-end-line="18" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/regression/models.py">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/regression/processing.py">
+    <entry file="file://$PROJECT_DIR$/tests/test_preparation.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="378">
-          <caret line="30" selection-start-line="30" selection-end-line="30" />
+        <state relative-caret-position="126">
+          <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
           <folding>
-            <element signature="e#0#61#0" expanded="true" />
+            <element signature="e#0#26#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/configs/config.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="20" lean-forward="true" selection-start-line="20" selection-end-line="20" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/regression/preparation.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="162">
-          <caret line="9" column="35" selection-start-line="9" selection-start-column="35" selection-end-line="9" selection-end-column="35" />
+        <state relative-caret-position="108">
+          <caret line="6" column="31" selection-start-line="6" selection-start-column="31" selection-end-line="6" selection-end-column="31" />
           <folding>
             <element signature="e#0#19#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/regression/processing.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="5" column="33" lean-forward="true" selection-start-line="5" selection-start-column="33" selection-end-line="5" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/regression/train_model.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="234">
-          <caret line="19" lean-forward="true" selection-start-line="19" selection-end-line="19" />
+        <state relative-caret-position="-198">
+          <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
           <folding>
             <element signature="e#0#37#0" expanded="true" />
           </folding>

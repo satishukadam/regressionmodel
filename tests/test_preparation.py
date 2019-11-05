@@ -1,5 +1,5 @@
 from configs import config
-from preparation import load_dataset, get_features
+from regression.preparation import load_dataset, get_features
 
 
 def test_preparation_get_features():
