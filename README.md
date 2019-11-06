@@ -50,7 +50,7 @@ Then take a look into the `scripts` and `notebooks` folders.
 2. Create concrete dependencies as `environment.lock.yaml` for the exact reproduction of your
    environment with:
    ```
-   conda env export -n D:\Python\machinelearning -f environment.lock.yaml
+   conda env export -n D:\Python\regressiom -f environment.lock.yaml
    ```
    For multi-OS development, consider using `--no-builds` during the export.
 3. Update your current environment with respect to a new `environment.lock.yaml` using:
@@ -86,7 +86,7 @@ Then take a look into the `scripts` and `notebooks` folders.
 ├── setup.py                <- Use `python setup.py develop` to install for development or
 |                              or create a distribution with `python setup.py bdist_wheel`.
 ├── src
-│   └── dpythonmachinelearning <- Actual Python package where the main functionality goes.
+│   └── regression <- Actual Python package where the main functionality goes.
 ├── tests                   <- Unit tests which can be run with `py.test`.
 ├── .coveragerc             <- Configuration for coverage reports of unit tests.
 ├── .isort.cfg              <- Configuration for git hook that sorts imports.
