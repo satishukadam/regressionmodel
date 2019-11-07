@@ -4,6 +4,7 @@ LICENSE
 MANIFEST.in
 README.md
 environment.yaml
+requirements.txt
 setup.py
 configs/__init__.py
 configs/config.py
