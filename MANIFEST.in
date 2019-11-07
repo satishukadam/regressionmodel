@@ -1,0 +1,9 @@
+recursive-include configs
+recursive-include data *.csv
+recursive-include models *.pkl *.py
+include AUTHORS.rst
+include CHANGELOG.rst
+include environment.yaml
+include LICENSE
+include MANIFEST.in
+include README.md

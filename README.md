@@ -62,7 +62,7 @@ Then take a look into the `scripts` and `notebooks` folders.
 ```
 ├── AUTHORS.rst             <- List of developers and maintainers.
 ├── CHANGELOG.rst           <- Changelog to keep track of new features and fixes.
-├── LICENSE.txt             <- License as chosen on the command-line.
+├── LICENSE                 <- License as chosen on the command-line.
 ├── README.md               <- The top-level README for developers.
 ├── configs                 <- Directory for configurations of model & application.
 ├── data
@@ -86,7 +86,7 @@ Then take a look into the `scripts` and `notebooks` folders.
 ├── setup.py                <- Use `python setup.py develop` to install for development or
 |                              or create a distribution with `python setup.py bdist_wheel`.
 ├── src
-│   └── regression <- Actual Python package where the main functionality goes.
+│   └── regression          <- Actual Python package where the main functionality goes.
 ├── tests                   <- Unit tests which can be run with `py.test`.
 ├── .coveragerc             <- Configuration for coverage reports of unit tests.
 ├── .isort.cfg              <- Configuration for git hook that sorts imports.
