@@ -1,11 +1,12 @@
 graft configs
-recursive-include data *.csv
-recursive-include models *.pkl *.py
+graft data
+graft models
 include AUTHORS.rst
 include CHANGELOG.rst
 include environment.yaml
 include LICENSE
 include MANIFEST.in
 include README.md
+include requirements.txt
 
 prune logs
