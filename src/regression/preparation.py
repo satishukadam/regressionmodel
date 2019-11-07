@@ -1,5 +1,12 @@
 import pandas as pd
 from configs import config
+from configs.logging_config import get_handler
+import logging
+
+# Create logger
+logger = logging.getLogger(__name__)
+handler = get_handler(logger)
+logger.info('preparation done!!!')
 
 
 # Function to load dataset csv

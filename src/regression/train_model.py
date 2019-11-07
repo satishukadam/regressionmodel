@@ -4,6 +4,13 @@ from configs import config
 from sklearn.model_selection import train_test_split
 import joblib
 import os
+import logging
+from configs.logging_config import get_handler
+
+# # Create logger
+logger = logging.getLogger(__name__)
+handler = get_handler(logger)
+logger.info('trained model')
 
 
 def train_model():
