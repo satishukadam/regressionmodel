@@ -1,9 +1,16 @@
-from processing import train_pipeline
-from regression.preparation import get_features, load_dataset
+from src.regression.processing import train_pipeline
+from src.regression.preparation import load_dataset
 from configs import config
 from sklearn.model_selection import train_test_split
-from sklearn.externals import joblib
+import joblib
 import os
+import logging
+from configs.logging_config import get_handler
+
+# # Create logger
+logger = logging.getLogger(__name__)
+handler = get_handler(logger)
+logger.info('trained model')
 
 
 def train_model():

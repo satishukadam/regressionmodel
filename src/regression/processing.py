@@ -1,10 +1,17 @@
-from regression.preparation import get_features, load_dataset
+from src.regression.preparation import get_features, load_dataset
 from configs import config
 from sklearn.pipeline import Pipeline
 from sklearn.preprocessing import StandardScaler, OneHotEncoder
 from sklearn.impute import SimpleImputer
 from sklearn.compose import ColumnTransformer
 from sklearn.linear_model import LinearRegression
+from configs.logging_config import get_handler
+import logging
+
+# Create logger
+logger = logging.getLogger(__name__)
+handler = get_handler(logger)
+logger.info('processing done!!!')
 
 
 def train_pipeline(file=config.DATA_FILE):

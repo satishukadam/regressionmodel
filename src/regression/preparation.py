@@ -1,11 +1,16 @@
 import pandas as pd
 from configs import config
+from configs.logging_config import get_handler
+import logging
 
-input_file = config.DATA_FILE
+# Create logger
+logger = logging.getLogger(__name__)
+handler = get_handler(logger)
+logger.info('preparation done!!!')
 
 
 # Function to load dataset csv
-def load_dataset(input_file) -> pd.DataFrame:
+def load_dataset(input_file=config.DATA_FILE) -> pd.DataFrame:
     """This function loads the input CSV file into a pandas dataframe"""
     _data = pd.read_csv(input_file)
     return _data
