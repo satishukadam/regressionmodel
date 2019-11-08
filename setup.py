@@ -20,7 +20,7 @@ except FileNotFoundError:
 
 
 setup(name=NAME,
-      version='1.0',
+      version='1.3',
       description=DESCRIPTION,
       long_description=long_description,
       classifiers=[
@@ -38,9 +38,7 @@ setup(name=NAME,
       author='Satish Kadam',
       author_email='satishukadam@gmail.com',
       license='MIT',
-      packages=find_packages(where='src'),
-      package_dir = {'regression': 'src/regression'},
-      package_data={'regression': ['*.py']},
+      packages=find_packages(),
       install_requires=['numpy', 'scipy', 'pandas', 'scikit-learn'],
       include_package_data=True,
       zip_safe=False)

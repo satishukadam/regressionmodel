@@ -1,3 +1,12 @@
 2019-11-07 19:16:52,293 : INFO : regression.preparation : preparation done!!!
 2019-11-07 19:16:52,969 : INFO : regression.processing : processing done!!!
 2019-11-07 19:16:52,970 : INFO : __main__ : trained model
+2019-11-07 22:53:52,068 : INFO : regression.preparation : preparation done!!!
+2019-11-08 00:50:59,025 : INFO : regression.preparation : preparation done!!!
+2019-11-08 08:50:46,441 : INFO : src.regression.preparation : preparation done!!!
+2019-11-08 08:52:35,969 : INFO : src.regression.preparation : preparation done!!!
+2019-11-08 08:52:44,866 : INFO : src.regression.processing : processing done!!!
+2019-11-08 08:52:44,867 : INFO : __main__ : trained model
+2019-11-08 08:53:27,776 : INFO : src.regression.preparation : preparation done!!!
+2019-11-08 08:54:03,871 : INFO : src.regression.preparation : preparation done!!!
+2019-11-08 10:23:14,987 : INFO : src.regression.preparation : preparation done!!!

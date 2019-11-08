@@ -1,5 +1,5 @@
-from regression.processing import train_pipeline
-from regression.preparation import load_dataset
+from src.regression.processing import train_pipeline
+from src.regression.preparation import load_dataset
 from configs import config
 from sklearn.model_selection import train_test_split
 import joblib

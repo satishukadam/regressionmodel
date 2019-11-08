@@ -1,4 +1,4 @@
-from regression.preparation import get_features, load_dataset
+from src.regression.preparation import get_features, load_dataset
 from configs import config
 from sklearn.pipeline import Pipeline
 from sklearn.preprocessing import StandardScaler, OneHotEncoder
