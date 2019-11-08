@@ -33,7 +33,7 @@ def train_model():
     # Save the model
     model_name = os.path.join(config.TRAINED_MODEL_DIR, 'model1.pkl')
 
-    joblib.dump(train_pipeline, model_name)
+    joblib.dump(model, model_name)
 
 
 if __name__ == '__main__':
